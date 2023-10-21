@@ -1,0 +1,182 @@
+
+
+
+
+header {
+    background-color: hsl(0, 42%, 71%);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+body {
+    width:auto;
+    height:auto;
+    margin: 0 auto; /* Para centrar el contenido horizontalmente */
+  }
+/* Estilos para el contenido principal */
+main {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+/* Nav central */
+nav{
+    text-align: center;
+}
+/* Estilos para la barra lateral */
+aside {
+    background-color: #ddd;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #d49696;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    clear: both;
+}
+
+/* Estilos para el enlace */
+a {
+    color: #0077cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+nav ul {
+    background-position: center;
+    list-style: none; /* Elimina los puntos de la lista */
+    padding: 0; /* Elimina el espacio interior por defecto */
+    margin: 0; /* Elimina el margen exterior por defecto */
+    
+}
+
+/* Estilo para los elementos de la lista */
+nav li {
+    display: inline; /* Hace que los elementos de la lista se muestren en línea */
+    margin-right: 20px; /* Espacio entre los elementos de la lista */
+}
+
+/* Estilo para los enlaces en la lista */
+nav a {
+    
+text-decoration: none; /* Elimina la subrayado de los enlaces */
+    
+   
+color: #252525; /* Color del texto */
+    font-weight: bold; /* Texto en negrita */
+}
+
+/* Cambiar color del enlace cuando se pasa el ratón por encima */
+nav a:hover {
+    color: #FF0000; /* Cambia el color del texto al pasar el ratón por encima */
+}
+
+.nosotros_main {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.imagen-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.imagen-container img {
+    width: 300px; /* Ajusta el ancho según tus necesidades */
+    height: 300px; /* Ajusta la altura según tus necesidades */
+    object-fit: cover; /* Para asegurar que la imagen cubra el área asignada */
+    padding: 2%;
+}
+
+
+
+
+.h2{
+    text-align: center;
+    font-size: x-large; /*tamaño de la letra*/
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.p__main{
+    font-size: large;
+    font-style: italic;
+    background-position: center;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .formulario {
+    /* Estilos para el formulario */
+    /* ... */
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px; /* Ajusta el margen inferior según sea necesario */
+  }
+  
+  .iframe {
+    width: 500px; /* Ajusta el ancho del iframe según sea necesario */
+    height: 300px; /* Ajusta la altura del iframe según sea necesario */
+    border: 10px; /* Quita el borde del iframe si lo deseas */
+    justify-content: center;
+    align-items: center; 
+    padding: 0%;
+  }
+
+  .main.galeria {
+    
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.gallery {
+    
+    
+    max-width: 200px;
+    justify-content: center;
+    display: flex;
+    
+    
+    
+}
+
+.gallery-item {
+    margin: 15px;
+    box-shadow: 0 0 0px rgba(0, 0, 0, 0.1);
+    padding: 2%;
+    
+}
+
+.gallery-item img {
+    
+    width: 200px; /* Ajusta el ancho según tus necesidades */
+    height: 200px; /* Ajusta la altura según tus necesidades */
+    object-fit: cover; /* Para asegurar que la imagen cubra el área asignada */
+    padding: 60%;
+}
